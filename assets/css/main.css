@@ -4,3 +4,7 @@
 @theme {
     --font-sans: "Outfit";
 }
+
+:root {
+    --brand-secondary: 	hsl(185, 76%, 48%);
+  }

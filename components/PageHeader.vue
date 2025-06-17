@@ -34,14 +34,15 @@ const highlightColorClass = computed(() => {
   const colorMap = {
     red: 'bg-red-300',
     blue: 'bg-blue-300',
-    orange: 'bg-orange-300'
+    orange: 'bg-orange-300',
+    cyan: 'bg-cyan-300',
   };
   return colorMap[props.highlightColor] || colorMap.red;
 });
 </script>
 
 <template>
-  <div class="text-center my-8">
+  <div class="text-center mb-8">
     <h2 class="text-[56px] font-medium">
       <span v-if="!highlight">{{ title }}</span>
       <template v-else>
