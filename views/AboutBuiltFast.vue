@@ -27,7 +27,7 @@ const featuresList = [
             <PageHeader title="Why BuiltFast?" highlight="BuiltFast?"
               subtitle="BuiltFast gives you fast, secure hosting that fits your business today and prepares you for your growth of tomorrow."/>
 
-      <FeatureGrid :features="featuresList" />
+            <FeatureGrid :features="featuresList" />
         </template>
     </AppLayout>
 </template>
