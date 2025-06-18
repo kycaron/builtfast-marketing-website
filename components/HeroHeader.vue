@@ -1,3 +1,22 @@
+<template>
+  <div class="flex flex-col px-4 sm:px-0">
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-[64px] leading-tight sm:leading-tight lg:leading-[1.2] font-bold text-white text-left">
+      <span v-if="!highlight">{{ title }}</span>
+      <template v-else>
+        {{ titleParts[0] }}
+        <span :class="highlightColorClass">{{ highlight }}</span>
+        {{ titleParts[1] }}
+      </template>
+    </h1>
+    <p
+      v-if="subtitle"
+      class="mt-4 sm:mt-6 text-base sm:text-lg text-gray-300 text-left max-w-full sm:max-w-lg"
+    >
+      {{ subtitle }}
+    </p>
+  </div>
+</template>
+
 <script setup>
 import { computed } from 'vue';
 
@@ -37,19 +56,3 @@ const highlightColorClass = computed(() => {
   return colorMap[props.highlightColor] || colorMap.red;
 });
 </script>
-
-<template>
-  <div class="flex flex-col">
-    <h1 class="text-[64px] leading-[1.2] font-bold text-white text-left">
-      <span v-if="!highlight">{{ title }}</span>
-      <template v-else>
-        {{ titleParts[0] }}
-        <span :class="highlightColorClass">{{ highlight }}</span>
-        {{ titleParts[1] }}
-      </template>
-    </h1>
-    <p v-if="subtitle" class="mt-6 text-[16px] text-gray-300 text-left max-w-lg">
-      {{ subtitle }}
-    </p>
-  </div>
-</template>
