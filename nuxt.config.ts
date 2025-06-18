@@ -6,7 +6,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   plugins: ['~/plugins/iconify.client.ts'],
+
   vite: {
     plugins: [tailwindcss()],
   },
+
+  modules: ['@nuxt/image'],
 })
