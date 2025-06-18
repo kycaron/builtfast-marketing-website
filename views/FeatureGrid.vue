@@ -13,7 +13,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="grid grid-cols-1 gap-x-8 md:grid-cols-2 lg:grid-cols-3">
+  <div class="grid grid-cols-1 gap-x-8 md:grid-cols-2 lg:grid-cols-3 gap-y-6">
     <div v-for="feature in features" class="flex flex-col space-y-4" :key="feature.title">
       <div class="flex size-[75px] items-center justify-center rounded-2xl bg-cyan-400">
         <Icon :icon="feature.icon" class="size-[60px] text-white" />

@@ -5,6 +5,7 @@ import PageHeader from '@/components/PageHeader.vue'
 import Pricing from '@/views/home/Pricing.vue'
 import Hero from '@/views/home/Hero.vue'
 import AbouteBuiltFast from '@/views/AboutBuiltFast.vue'
+import Benefits from '@/views/home/Benefits.vue'
 
 </script>
 
@@ -14,4 +15,6 @@ import AbouteBuiltFast from '@/views/AboutBuiltFast.vue'
   <AbouteBuiltFast />
 
   <Pricing />
+
+  <Benefits />
 </template>
