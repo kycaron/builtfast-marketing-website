@@ -78,48 +78,48 @@ customBackgroundColor: {
 
 <template>
   <div
-  class="flex flex-col p-[40px] w-[464px] h-[623px] rounded-[12px] gap-[32px] border"
-  :style="{ backgroundColor: customBackgroundColor, borderColor: customBorderColor }"
-  :class="[backgroundColor]"
->
+      class="flex flex-col p-[40px] w-11/12 lg:w-[435px] h-[530px] lg:h-[623px] rounded-[12px] gap-[32px] border"
+      :style="{ backgroundColor: customBackgroundColor, borderColor: customBorderColor }"
+      :class="[backgroundColor]"
+  >
 
-      <!-- Title & Description -->
-      <div class="space-y-2">
-        <h2 :class="['text-xl font-semibold', titleColor]">{{ title }}</h2>
-        <p :class="['text-sm', descriptionColor]">{{ description }}</p>
-      </div>
-  
-      <!-- Price Block -->
-      <div>
-        <p :class="['text-sm', mutedTextColor]">STARTING AT</p>
-        <p :class="['text-3xl font-bold flex items-baseline gap-1', priceColor]">
-          {{ price }}
-          <span :class="['text-base font-medium', periodColor]">{{ period }}</span>
-        </p>
-        <p :class="['text-xs mt-1', mutedTextColor]">*For 36 month term.</p>
-      </div>
-  
-        <!-- CTA button -->
-        <a
+    <!-- Title & Description -->
+    <div class="space-y-2">
+      <h2 :class="['text-xl font-semibold', titleColor]">{{ title }}</h2>
+      <p :class="['text-sm', descriptionColor]">{{ description }}</p>
+    </div>
+
+    <!-- Price Block -->
+    <div>
+      <p :class="['text-sm', mutedTextColor]">STARTING AT</p>
+      <p :class="['text-3xl font-bold flex items-baseline gap-1', priceColor]">
+        {{ price }}
+        <span :class="['text-base font-medium', periodColor]">{{ period }}</span>
+      </p>
+      <p :class="['text-xs mt-1', mutedTextColor]">*For 36 month term.</p>
+    </div>
+
+    <!-- CTA button -->
+    <a
         :href="buttonLink"
         class="w-full text-sm font-semibold py-3 rounded text-center transition"
         :class="[buttonTextColor]"
         :style="{ backgroundColor: customButtonBg }"
-        >
-        {{ buttonText }}
-        </a>
-        
-      <!-- Features List -->
-       <ul class="space-y-3 text-sm" :class="featureTextColor">
-        <li
+    >
+      {{ buttonText }}
+    </a>
+
+    <!-- Features List -->
+    <ul class="space-y-3 text-sm" :class="featureTextColor">
+      <li
           v-for="(feature, index) in features"
           :key="index"
           class="flex items-center"
-        >
-          <Icon :icon="featureIcon" :class="[featureIconColor, 'w-4 h-4 mr-2']" />
-          {{ feature }}
-        </li>
-      </ul>
-    </div>
-  </template>
+      >
+        <Icon :icon="featureIcon" :class="[featureIconColor, 'w-4 h-4 mr-2']" />
+        {{ feature }}
+      </li>
+    </ul>
+  </div>
+</template>
   
