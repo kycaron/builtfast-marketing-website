@@ -6,7 +6,7 @@ import AppLayout from "@/layout/AppLayout.vue";
 <template>
 <AppLayout>
   <template #default>
-    <div class="bg-[#050f19] text-white rounded-lg h-72 lg:h-96 flex flex-col justify-center items-center space-y-6">
+    <div class="bg-[#050f19] text-white rounded-lg h-72 lg:h-96 flex flex-col justify-center items-center space-y-10">
     <slot name="title"/>
     <slot name="cta"/>
     </div>

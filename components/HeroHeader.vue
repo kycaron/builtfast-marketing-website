@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col px-4 sm:px-0">
-    <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-[64px] leading-tight sm:leading-tight lg:leading-[1.2] font-bold text-white text-left font-sans">
+  <div class="flex flex-col px-4 sm:px-0 text-left">
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-[64px] leading-tight sm:leading-tight lg:leading-[1.2] font-bold text-white font-sans">
       <span v-if="!highlight">{{ title }}</span>
       <template v-else>
         {{ titleParts[0] }}

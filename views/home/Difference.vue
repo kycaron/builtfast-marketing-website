@@ -35,7 +35,7 @@ const featuresList = [
   </AppLayout>
   <InfoCard>
     <template #title>
-      <HeroHeader title="Let's Build Your Online Success Story" highlight="Success" highlight-color="blue" />
+      <HeroHeader class="!text-center" title="Let's Build Your Online Success Story" highlight="Success" highlight-color="cyan" />
     </template>
     <template #cta>
         <button class="bg-[#FF6542] hover:bg-[#FF6542] px-6 py-3 text-white font-medium text-sm rounded font-inter">
