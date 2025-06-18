@@ -9,7 +9,7 @@ import PageHeader from '~/components/PageHeader.vue';
 <div class="bg-[#F6F9FB]">
   <AppLayout>
     <template #default>
-        <div class="min-h-screen px-6 sm:px-10 md:px-20 lg:px-32 py-12 flex flex-col lg:flex-row items-center justify-between gap-12">
+        <div class="min-h-screen px-6 sm:px-10 md:px-20 lg:px-32 lg:py-12 flex flex-col lg:flex-row items-center justify-between gap-12">
           
           <!-- Text Section -->
           <div class="w-full lg:w-1/2 max-w-xl">

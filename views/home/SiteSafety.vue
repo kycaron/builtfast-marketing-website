@@ -20,7 +20,7 @@ import PageHeader from '~/components/PageHeader.vue'
           <!-- Right Content -->
           <div class="w-full lg:w-1/2">
             <PageHeader
-              class="!text-start"
+              class="lg:!text-start"
               title="Your site’s safety isn’t an add-on. It’s our baseline."
               highlight="safety"
               highlightColor="red"
@@ -35,7 +35,6 @@ import PageHeader from '~/components/PageHeader.vue'
               <span class="font-bold text-black">We stay ahead of the bad guys, so you don’t have to.</span>
             </p>
           </div>
-
         </div>
       </div>
     </template>
