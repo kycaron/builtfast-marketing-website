@@ -7,7 +7,7 @@ import HeroHeader from '~/components/HeroHeader.vue';
   <div class="lg:min-h-screen w-full bg-black text-white font-inter relative overflow-hidden">
     <Navbar />
 
-    <div class="relative min-h-[600px] lg:h-screen flex items-center justify-center px-4 sm:px-8">
+    <div class="relative min-h-[650px] lg:h-screen flex items-center justify-center px-4 sm:px-8">
       <!-- Text & CTA -->
       <div
         class="absolute space-y-14 lg:space-y-8 w-[90%] sm:w-[765px] top-[200px] sm:top-[250px] left-1/2 transform -translate-x-1/2 sm:left-[254px] sm:translate-x-0 z-10 text-left"

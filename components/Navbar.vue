@@ -24,7 +24,7 @@ const supportItems = [
 </script>
 
 <template>
-  <header class="w-full bg-transparent text-white font-inter">
+  <header class="w-full bg-transparent text-white font-inter py-4 lg:py-6">
     <div class="flex justify-between items-center px-5 py-4 md:px-10 max-w-screen-xl mx-auto">
       <img alt="builtfast_logo" src="../assets/images/logo.svg" class="h-8" />
 

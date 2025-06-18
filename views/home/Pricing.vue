@@ -123,7 +123,6 @@
           </section>
         </div>
       </div>
-
     </template>
   </AppLayout>
 </template>
