@@ -13,7 +13,7 @@ import PricingCard from '~/components/PricingCard.vue';
               highlightColor="cyan"
               subtitle="Our hosting plans give you the speed, simplicity, and support you need."/>
           <div>
-            <section class="py-16">
+            <section class="lg:py-10">
               <!-- Card Layout -->
               <div class="flex flex-col justify-center lg:flex-row lg:space-x-6 space-y-6 lg:space-y-0 justify-center items-center lg:items-start">
   

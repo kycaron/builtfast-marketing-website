@@ -1,12 +1,14 @@
 <script setup lang="ts">
+import AppLayout from '~/layout/AppLayout.vue';
 import PageHeader from '~/components/PageHeader.vue';
 
 </script>
 
 <template>
+
+<div class="bg-[#F6F9FB]">
   <AppLayout>
     <template #default>
-      <div class="bg-[#F6F9FB]">
         <div class="min-h-screen px-6 sm:px-10 md:px-20 lg:px-32 py-12 flex flex-col lg:flex-row items-center justify-between gap-12">
           
           <!-- Text Section -->
@@ -41,7 +43,7 @@ import PageHeader from '~/components/PageHeader.vue';
             />
           </div>
         </div>
-      </div>
     </template>
   </AppLayout>
+  </div>
 </template>
