@@ -3,7 +3,6 @@ import { ref } from 'vue';
 import { Icon } from '@iconify/vue';
 
 const isHostingOpen = ref(false);
-const isAboutOpen = ref(false);
 const isDomainsOpen = ref(false);
 const isSupportOpen = ref(false);
 
@@ -22,19 +21,6 @@ const hostingItems = [
     icon: 'fa-brands:wordpress',
     title: 'Managed WordPress Hosting',
     desc: 'Optimized hosting for WordPress sites',
-  },
-];
-
-const aboutItems = [
-  {
-    icon: 'mdi:account-group-outline',
-    title: 'BuiltFast',
-    desc: 'Meet the people behind BuiltFast',
-  },
-  {
-    icon: 'mdi:handshake-outline',
-    title: 'Partners',
-    desc: 'Our trusted business partners',
   },
 ];
 
@@ -61,7 +47,7 @@ const supportItems = [
 </script>
 
 <template>
-  <div class="container font-inter pt-10 flex justify-between items-center lg:w-10/12 px-5 bg-black text-white mx-auto ml-[258px] relative">
+  <div class="container font-inter pt-10 flex justify-between items-center lg:w-10/12 px-5 bg-transparent text-white mx-auto relative">
     <img alt="builtfast_logo" src="../assets/images/logo.svg" />
 
     <div class="hidden md:flex items-center space-x-8 relative">
@@ -108,22 +94,6 @@ const supportItems = [
         </a>
         <div v-show="isSupportOpen" class="absolute top-10 left-0 bg-white text-black shadow-xl rounded-xl w-[340px] p-6 space-y-4 z-50">
           <div v-for="item in supportItems" :key="item.title" class="flex items-start space-x-3 hover:bg-gray-100 px-3 py-2 rounded-md transition-colors cursor-pointer">
-            <Icon :icon="item.icon" class="text-blue-600 text-xl mt-1" />
-            <div>
-              <p class="font-semibold text-sm">{{ item.title }}</p>
-              <p class="text-gray-500 text-sm">{{ item.desc }}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="relative" @mouseenter="isAboutOpen = true" @mouseleave="isAboutOpen = false">
-        <a href="#" class="text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
-          <span>About Us</span>
-          <Icon icon="iconamoon:arrow-down-2-bold" class="text-white" />
-        </a>
-        <div v-show="isAboutOpen" class="absolute top-10 left-0 bg-white text-black shadow-xl rounded-xl w-[340px] p-6 space-y-4 z-50">
-          <div v-for="item in aboutItems" :key="item.title" class="flex items-start space-x-3 hover:bg-gray-100 px-3 py-2 rounded-md transition-colors cursor-pointer">
             <Icon :icon="item.icon" class="text-blue-600 text-xl mt-1" />
             <div>
               <p class="font-semibold text-sm">{{ item.title }}</p>

@@ -39,7 +39,7 @@ const highlightColorClass = computed(() => {
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col">
     <h1 class="text-[64px] leading-[1.2] font-bold text-white text-left">
       <span v-if="!highlight">{{ title }}</span>
       <template v-else>
