@@ -43,7 +43,7 @@ const highlightColorClass = computed(() => {
 
 <template>
   <div class="text-center mb-8">
-    <h2 class="text-[56px] font-medium">
+    <h2 class="text-[56px] font-semibold">
       <span v-if="!highlight">{{ title }}</span>
       <template v-else>
         <span>{{ textBefore }}</span>
