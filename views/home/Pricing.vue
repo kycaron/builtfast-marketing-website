@@ -1,7 +1,12 @@
+<script setup>
+import AppLayout from '~/layout/AppLayout.vue';
+import PricingCard from '~/components/PricingCard.vue';
+
+</script>
 <template>
+ <div class="bg-[#F6F9FB]">
     <AppLayout>
       <template #default>
-        <div class="bg-[#F6F9FB] lg:py-[120px] py-0 pt-10">
           <PageHeader
               title="Simple, Transparent Pricing"
               highlight="Transparent"
@@ -121,8 +126,9 @@
               </span>
             </p>
           </section>
-        </div>
+    
       </div>
     </template>
   </AppLayout>
+  </div>
 </template>

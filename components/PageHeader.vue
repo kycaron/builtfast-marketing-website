@@ -57,7 +57,7 @@ const highlightColorClass = computed(() => {
         <span>{{ textAfter }}</span>
       </template>
     </h2>
-    <p v-if="subtitle" class="mt-10 text-[18px] font-light text-gray-600 mx-auto font-inter">
+    <p v-if="subtitle" class="mt-10 text-[15px] lg:text-[18px] font-light text-gray-600 mx-auto font-inter">
       {{ subtitle }}
     </p>
   </div>

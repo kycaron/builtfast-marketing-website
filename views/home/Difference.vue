@@ -5,22 +5,21 @@ import HeroHeader from "~/components/HeroHeader.vue";
 import FeatureGrid from "../FeatureGrid.vue";
 
 const featuresList = [
-  {
-    icon: 'material-symbols:speed-rounded',
+    {
+    icon: 'famicons:people',
     title: 'People Not Just Profits',
     description: 'People-first hosting, built to serve business like yours.',
-  },
-  {
-    icon: 'material-symbols:headset-mic-outline-sharp',
+    },
+    {
+    icon: 'ic:outline-looks-one',
     title: 'Customer First Approach',
     description: 'Our first priority? You. Everything else follows from that.',
-  },
-  {
-    icon: 'material-symbols:ads-click',
+    },
+    {
+    icon: 'tdesign:user-setting',
     title: 'Built by Hosting Veterans',
     description: "We've seen it all, and we built something better.",
-  },
-
+    },
 ];
 </script>
 
@@ -39,7 +38,9 @@ const featuresList = [
       <HeroHeader title="Let's Build Your Online Success Story" highlight="Success" highlight-color="blue" />
     </template>
     <template #cta>
-     <button class="bg-orange-500">sdflj</button>
+        <button class="bg-[#FF6542] hover:bg-[#FF6542] px-6 py-3 text-white font-medium text-sm rounded font-inter">
+          Learn More
+        </button>
     </template>
   </InfoCard>
 </div>
