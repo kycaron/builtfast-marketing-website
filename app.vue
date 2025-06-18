@@ -8,6 +8,7 @@ import AbouteBuiltFast from '@/views/AboutBuiltFast.vue'
 import Benefits from '@/views/home/Benefits.vue'
 import ControlCenter from './views/home/ControlCenter.vue'
 import SiteSafety from './views/home/SiteSafety.vue'
+import Difference from './views/home/Difference.vue'
 
 </script>
 
@@ -23,4 +24,6 @@ import SiteSafety from './views/home/SiteSafety.vue'
   <ControlCenter />
 
   <SiteSafety />
+
+  <Difference />
 </template>

@@ -35,7 +35,7 @@ const highlightColorClass = computed(() => {
     red: 'bg-red-300',
     blue: 'bg-blue-300',
     orange: 'bg-orange-300',
-    cyan: 'bg-cyan-300',
+    cyan: 'bg-[#1DC9D8]',
   };
   return colorMap[props.highlightColor] || colorMap.red;
 });
