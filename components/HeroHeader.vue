@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col px-4 sm:px-0">
-    <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-[64px] leading-tight sm:leading-tight lg:leading-[1.2] font-bold text-white text-left">
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-[64px] leading-tight sm:leading-tight lg:leading-[1.2] font-bold text-white text-left font-sans">
       <span v-if="!highlight">{{ title }}</span>
       <template v-else>
         {{ titleParts[0] }}
@@ -10,7 +10,7 @@
     </h1>
     <p
       v-if="subtitle"
-      class="mt-4 sm:mt-6 text-base sm:text-lg text-gray-300 text-left max-w-full sm:max-w-lg"
+      class="mt-4 sm:mt-6 text-base sm:text-lg text-gray-300 text-left max-w-full sm:max-w-lg font-light"
     >
       {{ subtitle }}
     </p>

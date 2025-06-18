@@ -1,7 +1,7 @@
 <template>
     <AppLayout>
       <template #default>
-        <div class="bg-[#F6F9FB] lg:py-[120px] py-0 pt-10 lg:pt-0">
+        <div class="bg-[#F6F9FB] lg:py-[120px] py-0 pt-10">
           <PageHeader
               title="Simple, Transparent Pricing"
               highlight="Transparent"

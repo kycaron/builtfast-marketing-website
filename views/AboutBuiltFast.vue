@@ -12,7 +12,7 @@ const featuresList = [
   {
     icon: 'material-symbols:headset-mic-outline-sharp',
     title: 'Support 24/7',
-    description: 'Real experts. Real answers. Always here \n day or night.',
+    description: 'Real experts. Real answers. Always on, always here \n day or night.',
   },
   {
     icon: 'material-symbols:ads-click',

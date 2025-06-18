@@ -19,7 +19,7 @@ import HeroHeader from '~/components/HeroHeader.vue';
           highlightColor="cyan"
           subtitle="Lightning-fast hosting for modern websites. Unmatched performance, rock-solid reliability, and expert support that scales with your business."
         />
-        <button class="bg-orange-500 hover:bg-orange-600 px-6 py-3 text-white font-medium text-sm rounded">
+        <button class="bg-orange-500 hover:bg-orange-600 px-6 py-3 text-white font-medium text-sm rounded font-source-sans">
           START NOW
         </button>
       </div>

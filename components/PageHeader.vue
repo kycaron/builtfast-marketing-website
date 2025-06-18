@@ -50,7 +50,7 @@ const highlightColorClass = computed(() => {
         <span class="relative inline-block">
           <span class="relative z-10">{{ highlight }}</span>
           <span
-              class="absolute left-0 lg:bottom-5 bottom-1 px-1 w-full h-1.5 lg:h-2.5 z-0"
+              class="absolute left-0 lg:bottom-2 bottom-1 px-1 w-full h-1.5 lg:h-2.5 z-0"
               :class="highlightColorClass"
           ></span>
         </span>
